@@ -1,0 +1,31 @@
+.backGroundVideo{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.home{
+    height: 100vh;
+    overflow: hidden;
+}
+.titleContainer{
+    position: absolute;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    left: 15%;   
+    top: 45%;
+    color: aliceblue;
+    z-index: 9;
+}
+
+.title__btn{
+    padding: 7px;
+    width: 130px;
+    background-color: blue;
+    border: none;
+    color: aliceblue;
+    border-radius: 15px;
+    font-size: 16px;
+    cursor: pointer;
+}

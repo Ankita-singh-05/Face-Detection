@@ -1,0 +1,69 @@
+.details{
+    height: 100vh;
+    overflow: hidden;
+}
+.details__body{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    top: 0;
+    left: 0;
+    right: 0;bottom: 0;
+}
+h1{
+    text-align: center;
+    margin:5vh 0;
+}
+.big__blocks{
+    display: flex;  
+    margin-top: 7vh;
+    justify-content: space-between;
+    width: 80%;
+
+    
+}
+.block{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: antiquewhite;
+    width: 35vw;
+    height: 40vh;
+}
+.TwoBtns{
+    margin-top: 3vh;
+    width: 80%;
+    display: flex;
+
+}
+.Btn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    background-color: blue;
+    border: none;
+    color: white;
+    width:10vw;
+    padding: 8px;
+    margin-right: 3vw;
+    cursor: pointer;
+}
+.inputHolder{
+    width: 80%;
+    margin-top: 5vh ;
+}
+.NameInput{
+    padding: 5px;
+    width: 20%;
+
+}
+.BtnContainer{
+    width: 80%;
+    margin-top: 5vh;
+}
