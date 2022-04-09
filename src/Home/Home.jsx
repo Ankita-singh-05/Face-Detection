@@ -8,10 +8,9 @@ function Home() {
     <div className='home'>
         <video className='backGroundVideo' autoPlay muted loop src={BG} alt="NO Renderr"/>
         <div className="titleContainer">
-            <h1>
-               Face Detection  
+            <h1 className="home-title">
+               Face Detection Using ML
             </h1>
-            <h4>Using ML</h4>
             <Link to="/details">
 
             <button className='title__btn'>Get Started</button>
