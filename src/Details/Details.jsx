@@ -28,7 +28,7 @@ function Details() {
             </div>
             <div className="TwoBtns">
                 <button className='Btn'><CameraAltIcon/><b>Capture</b></button>
-                <button className='Btn'><CameraAltIcon/><b>Capture</b></button>
+                <button className='Btn'><b>Retake</b></button>
             </div>
             <div className="inputHolder">
 
@@ -36,7 +36,7 @@ function Details() {
             </div>
             <div className="BtnContainer">
 
-            <button className='Btn' onClick={()=>{console.log(name)}}><CameraAltIcon/><b>Submit</b></button>
+            <button className='Btn' onClick={()=>{console.log(name)}}><b>Submit</b></button>
             </div>
         </div>
 

@@ -1,69 +1,103 @@
-.details{
-    height: 100vh;
-    overflow: hidden;
+.details {
+  height: 100vh;
+  overflow: hidden;
 }
-.details__body{
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: white;
-    top: 0;
-    left: 0;
-    right: 0;bottom: 0;
+.details__body {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
-h1{
-    text-align: center;
-    margin:5vh 0;
-}
-.big__blocks{
-    display: flex;  
-    margin-top: 7vh;
-    justify-content: space-between;
-    width: 80%;
 
-    
+h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #169baf 0%,
+    #6c29b3 29%,
+    #e62464 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-decoration-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
 }
-.block{
-    padding: 5px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 
-    background-color: antiquewhite;
-    width: 35vw;
-    height: 40vh;
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
 }
-.TwoBtns{
-    margin-top: 3vh;
-    width: 80%;
-    display: flex;
 
+h1 {
+  text-align: center;
+  margin: 5vh 0;
 }
-.Btn{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    border-radius: 10px;
-    background-color: blue;
-    border: none;
-    color: white;
-    width:10vw;
-    padding: 8px;
-    margin-right: 3vw;
-    cursor: pointer;
+.big__blocks {
+  display: flex;
+  margin-top: 7vh;
+  justify-content: space-between;
+  width: 80%;
 }
-.inputHolder{
-    width: 80%;
-    margin-top: 5vh ;
-}
-.NameInput{
-    padding: 5px;
-    width: 20%;
+.block {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
+  background-color: antiquewhite;
+  width: 35vw;
+  height: 40vh;
 }
-.BtnContainer{
-    width: 80%;
-    margin-top: 5vh;
+.TwoBtns {
+  margin-top: 3vh;
+  width: 80%;
+  display: flex;
+}
+.Btn {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 8px;
+  background-color: blue;
+  border: none;
+  color: white;
+  width: 10vw;
+  padding: 10px;
+  margin-right: 3vw;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 18px;
+}
+
+.Btn:hover {
+  background-color: rgb(5, 113, 244);
+}
+
+.inputHolder {
+  width: 80%;
+  margin-top: 5vh;
+}
+.NameInput {
+  border: none !important;
+  padding: 12px;
+  width: 25%;
+}
+.BtnContainer {
+  width: 80%;
+  margin-top: 5vh;
 }
