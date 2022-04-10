@@ -39,7 +39,6 @@ function Details() {
             <button className='Btn' onClick={()=>{console.log(name)}}><b>Submit</b></button>
             </div>
         </div>
-
     </div>
   )
 }
