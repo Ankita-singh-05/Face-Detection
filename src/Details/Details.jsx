@@ -13,8 +13,8 @@ function Details() {
   const WebcamComponent = () => <Webcam />;
 
   const videoConstraints = {
-    width: 300,
-    height: 200,
+    width: 700,
+    height: 500,
     facingMode: "user",
   };
 
@@ -38,10 +38,10 @@ function Details() {
             {image === "" ? (
               <Webcam
                 audio={false}
-                // height={300}
+                height={350}
                 ref={webcamRef}
                 screenshotFormat="image/jpeg"
-                width={400}
+                width={450}
                 videoConstraints={videoConstraints}
               />
             ) : (

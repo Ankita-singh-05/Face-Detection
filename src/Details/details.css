@@ -73,7 +73,7 @@ h1 {
   justify-content: space-evenly;
   align-items: center;
   border-radius: 8px;
-  background-color: blue;
+  background-color: rgb(5, 5, 137);
   border: none;
   color: white;
   width: 10vw;
@@ -84,25 +84,50 @@ h1 {
   font-size: 18px;
 }
 
-.Btn, .webcam-btn:hover {
-  background-color: rgb(5, 113, 244);
+.Btn:hover, .webcam-btn:hover {
+  background-color: rgb(47, 47, 249);
 }
 
 .webcam-container{
   display: flex;
   flex-direction: column; 
-  gap: 20px;
 }
 
 .inputHolder {
   width: 80%;
   margin-top: 5vh;
 }
-.NameInput {
-  border: none !important;
-  padding: 12px;
-  width: 25%;
+
+
+.inputHolder input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: 0;
+  border: 1px solid rgb(5, 5, 137);
+  width: 35%;
+  border-radius: 3px;
+  padding: 10px 15px;
+  /* margin:10px auto 10px auto; */
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  color: rgb(5, 5, 137);
+  transition-duration: 0.25s;
 }
+
+.inputHolder input:hover{
+  background-color: rgb(5, 5, 137);
+  color:#fcf2f8;
+}
+
+.inputHolder input:focus{
+  background-color:rgb(5, 5, 137);
+  width: 300px;
+  color:#fff9fc;
+}
+
+
 .BtnContainer {
   width: 80%;
   margin-top: 5vh;

@@ -50,7 +50,7 @@
 .title__btn{
     padding: 15px;
     width: 12rem;
-    background-color: rgb(25, 164, 176);
+    background-color: rgb(10, 33, 137);
     border: none;
     color: aliceblue;
     border-radius: 10px;
@@ -61,5 +61,5 @@
 }
 
 .title__btn:hover{
-    background-color: rgb(1, 93, 113);
+    background-color: rgb(13, 30, 227);
 }
