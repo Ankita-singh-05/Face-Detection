@@ -12,7 +12,6 @@ function Home() {
                Face Detection Using ML
             </h1>
             <Link to="/details">
-
             <button className='title__btn'>Get Started</button>
             </Link>
         </div>
